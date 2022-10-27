@@ -32,7 +32,7 @@ public class TesteDeNavegabilidade {
 	//after test
 	@After
 	public void PosTeste() {
-		
+		driver.quit();
 	}
 	
 }
